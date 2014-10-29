@@ -11,6 +11,7 @@ setup(
     license='GPL',
     author="Harel Ben-Attia",
     author_email="harelba@gmail.com",
+    packages=['bin'],
     entry_points={
         'console_scripts': [
             'q=bin.q:main',
